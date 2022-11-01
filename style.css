@@ -1,0 +1,89 @@
+.Rows-one-list{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.Rows-two-list{
+    display: grid;
+    grid-template-columns: 11.5fr 0.5fr;
+}
+
+.Rows-three-list{
+    display: grid;
+    grid-template-columns: 0.5fr 11fr 0.5fr;
+}
+
+.Rows-four-list{
+    display: grid;
+    grid-template-columns: 11.5fr 0.5fr;
+}
+
+.Green-row{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Rows-six-list{
+    display: grid;
+    grid-template-columns: 5.75fr 0.5fr 5.75fr;
+}
+
+.Rows-seven-list{
+    display: grid;
+    grid-template-columns: 0.5fr 11.5fr;
+}
+
+
+.Blue-row{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+}
+
+.Rows-eight-list{
+    display: grid;
+    grid-template-columns: 0.5fr 2.375fr 0.5fr 2.375fr 0.5fr 2.375fr 0.5fr 2.375fr 0.5fr;
+}
+
+.Rows-nine-list{
+    display: grid;
+    grid-template-columns: 2.24fr 0.2fr 2.24fr 0.2fr 2.24fr 0.2fr 2.24fr 0.2fr 2.24fr;
+}
+
+@media only screen and (max-width: 768px) {
+    .Rows-two-list{
+        display: grid;
+        grid-template-columns: 10fr 2fr;
+    }
+    .Rows-three-list{
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr;
+    }
+    .Rows-four-list{
+        display: grid;
+        grid-template-columns: 10fr 2fr;
+    }
+    .Rows-six-list{
+        display: grid;
+        grid-template-columns: 5fr 2fr 5fr;
+    }
+    .Rows-seven-list{
+        display: grid;
+        grid-template-columns: 2fr 10fr;
+    }
+    .Rows-eight-list{
+        display: grid;
+        grid-template-columns: 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr;
+    }
+    
+    .Rows-nine-list{
+        display: grid;
+        grid-template-columns: 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr 2fr;
+    }
+}
